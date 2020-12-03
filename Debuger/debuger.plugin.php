@@ -1,10 +1,19 @@
 <?php
 
     use DataBase\DataBase;
+    use Settings\Settings;
+
+    $api = new API;
 
     $db = new DataBase;
 
     $plugins[] = 'Debuger';
+
+    $other_settings[] = 'debuger';
+
+    $debuger = new Settings;
+
+    $debuger->AddToOther('<a target="_blank" href="'.$api->Page_Path_Set('multi', '/', 'blank.php', __PLUGINPATH__.'/Debuger/', 'activate_debuger.php').'">Go to debuger</a>');
 
     $path = $_SERVER['PHP_SELF'];
 
