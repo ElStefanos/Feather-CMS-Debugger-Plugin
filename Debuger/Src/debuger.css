@@ -1,0 +1,20 @@
+.debuger{
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    overflow-y: auto;
+}
+
+.debuger input {
+    background: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+}
+
+.debuger button {
+    display: none;
+}
