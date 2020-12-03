@@ -1,4 +1,4 @@
-# Feather-CMS-Debuger-Plugin
+# Feather-CMS-Debugger-Plugin
 
 This is debugger for development of feather cms.
 
