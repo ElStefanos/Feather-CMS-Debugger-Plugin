@@ -6,7 +6,9 @@ To enable debuger go to:
 
 Admin panel->settings->other
 
-You will be prompted.
+Click Go to debuger.
+
+You will be prompted with console like environment.
 
 Default password is 1234
 
